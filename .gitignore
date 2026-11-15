@@ -1,0 +1,22 @@
+node_modules/
+.next/
+out/
+build/
+dist/
+*.tsbuildinfo
+next-env.d.ts
+
+# Local database and uploaded files. Both persist outside source control.
+data/
+storage/uploads/*
+!storage/uploads/.gitkeep
+
+# Secrets
+.env
+.env.local
+.env*.local
+
+.DS_Store
+*.log
+npm-debug.log*
+coverage/
